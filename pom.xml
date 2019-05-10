@@ -31,5 +31,15 @@
             <version>3.0.0-M3</version>
             <type>maven-plugin</type>
         </dependency>
+        <dependency>
+            <groupId>com.ibm.icu</groupId>
+            <artifactId>icu4j</artifactId>
+            <version>64.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>3.6.0</version>
+        </dependency>
     </dependencies>
 </project>
