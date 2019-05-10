@@ -23,7 +23,7 @@ public class Tests  extends Helpers {
         // capabilities.setCapability("automationName", "Appium"); Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
         capabilities.setCapability("appPackage", "com.yoopies.babysittingandroid.beta");
         capabilities.setCapability("appActivity", "com.yoopies.loginmodule.activities.splash.SplashActivity");
-        capabilities.setCapability("app", "/Users/yaninapavlyk/Desktop/GIT/Appium/JavaAppiumAutomation2-yoopies/apks/app-beta-debug.apk");
+        capabilities.setCapability("app", "/apks/app-beta-debug.apk");
 
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
